@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "types": ["vite/client"],
+    "paths": {
+      "@components/*": ["Components/*"],
+      "@contexts/*": ["Contexts/*"],
+      "@pages/*": ["Pages/*"],
+      "@services/*": ["Services/*"]
+    }
+  },
+  "include": ["./*", "Components", "Contexts", "Pages", "Services"],
+  "exclude": ["node_modules", "build", "dist"]
+}
